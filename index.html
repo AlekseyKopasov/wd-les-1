@@ -365,9 +365,124 @@
     </section>
 
     <section class="slide">
-      <h2>Браузеры. Браузерные движки</h2>
+      <h2>Программы для работы в вебе</h2>
+      <ol>
+        <li>Браузеры</li>
+        <li>Приложения (мини-браузеры PWA). PWA похожи на нативные приложения. Сердце PWA — Service Worker. Service
+          Worker представляет собой javascript </li>файл, подключаемый в html коде страницы. В нем разработчик
+        определяет логику работы с приходящими из фронтэнда запросами и другую функциональность
+        <li>Модули и компоненты в ПО</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>NCSA Mosaic Browser</h2>
+      <figure>
+        <img src="img/NCSA_Mosaic_Browser_Screenshot.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://en.wikipedia.org/wiki/NCSA_Mosaic" target="_blank">wikipedia.org</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide clear">
       <img src="img/b-war.png" width="100%">
     </section>
+
+    <section class="slide">
+      <h2>Первая война (1995—1999)</h2>
+      <figure>
+        <img src="img/Internet_explorer4_win95.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://ru.wikipedia.org/wiki/Internet_Explorer_4" target="_blank">wikipedia.org</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Гегемония Microsoft (2000—2004)</h2>
+      <figure>
+        <img src="img/Internet_Explorer_6.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://www.historyofinformation.com/image.php?id=6187" target="_blank">historyofinformation.com</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Вторая война (2005—2015)</h2>
+      <div class="columns three">
+        <img src="img/Google_Chrome_icon_(February_2022).svg.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <img src="img/Opera_2015_icon.svg.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <img src="img/Mozilla_Firefox_logo_2013.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Доминирование Google Chrome (2016—настоящее время)</h2>
+      <img src="img/Google_Chrome_icon_(February_2022).svg.png" width="100%" height="100%" alt="" style="
+      max-height: 320px;
+      margin: 0 auto;
+      display: flex;
+      object-fit: contain;
+    ">
+    </section>
+
+    <section class="slide">
+      <h2>В России</h2>
+      <figure>
+        <img src="img/b-stat.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://gs.statcounter.com/browser-market-share/all/russian-federation" target="_blank">statcounter.com</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide clear">
+      <figure>
+        <img src="img/Netflix_first_logo.svg.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://en.wikipedia.org/wiki/Netflix" target="_blank">wikipedia.org</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>FLoC</h2>
+
+      <p><b>&laquo;Federated Learning of&nbsp;Cohorts&raquo; (FLoC)</b>: браузер следит за&nbsp;пользователем и&nbsp;выдаёт рекламодателям не&nbsp;уникальный код пользователя, а&nbsp;особенности группы, куда он&nbsp;попал (по&nbsp;семейному состоянию, профессии, интересам, болезням или по&nbsp;совокупности этих признаков)</p>
+    </section>
+
 
     <section class="slide">
       <h2>Браузерный движок</h2>
@@ -443,26 +558,167 @@
     </section>
 
     <section class="slide">
-      <h2>Какие бывают сайты</h2>
+      <h2>Немного терминов</h2>
       <ul>
-        <li>Статические</li>
-        <li>Динамические</li>
-        <li>Адаптивные</li>
-        <li>Отзывчивые</li>
-        <li>SPA</li>
-        <li>PWA</li>
+        <li><b>Клиент</b> — приложение, которое запущено на компьютере и подключено к Интернету</li>
+        <li><b>Сервер</b> — компьютер, который подключен к Интернету</li>
+        <li><b>IP-адрес</b> — числовой идентификатор устройства в сети TCP/IP</li>
+        <li><b>Интернет-провайдер</b> — посредник между клиентом и серверами</li>
+        <li><b>DNS</b> — распределенная база данных, которая хранит соответствие доменных имен компьютеров и их IP-адресов в Интернете</li>
       </ul>
     </section>
 
     <section class="slide">
-      <h2>Программы для работы в вебе</h2>
+      <h2>Немного терминов</h2>
+      <ul>
+        <li><b>Имя домена</b> — используется для идентификации одного или нескольких IP-адресов (например, www.github.com)</li>
+        <li><b>TCP/IP</b> — наиболее широко используемый протокол связи</li>
+        <li><b>Номер порта</b> — число, которое идентифицирует определенный порт на сервере и всегда связано с IP-адресом</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Немного терминов</h2>
+      <ul>
+        <li><b>Хост</b> — это может быть клиент, сервер или любой другой тип устройства</li>
+        <li><b>HTTP</b> — протокол передачи гипертекста</li>
+        <li><b>URL</b> — URL-адреса идентифицируют конкретный веб-ресурс (например, https://github.com/someone)</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>DNS</h2>
+      <figure>
+        <img src="img/DNS.jpg" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://ru.hostings.info/schools/dns.html" target="_blank">hostings.info</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>DOM</h2>
+      <figure>
+        <img src="img/DOM.png" width="100%" height="100%" alt="" style="
+        max-height: 370px;
+        margin: 0 auto;
+        display: flex;
+        object-fit: contain;
+      ">
+        <cite class="small" >Источник: <a href="https://www.w3.org/TR/REC-DOM-Level-1/introduction.html" target="_blank">w3.org</a></cite>
+      </figure>
+    </section>
+
+    <section class="slide">
+      <h2>Что такое HTTP</h2>
+      <p><b>HTTP</b> (HyperText Transfer Protocol) — &nbsp;представляет собой список правил, по&nbsp;которым компьютеры обмениваются данными в&nbsp;интернете</p>
       <ol>
-        <li>Браузеры</li>
-        <li>Приложения (мини-браузеры PWA). PWA похожи на нативные приложения. Сердце PWA — Service Worker. Service
-          Worker представляет собой javascript </li>файл, подключаемый в html коде страницы. В нем разработчик
-        определяет логику работы с приходящими из фронтэнда запросами и другую функциональность
-        <li>Модули и компоненты в ПО</li>
+        <li>вписываем URL в браузер</li>
+        <li>браузер находит IP-адрес</li>
+        <li>браузер отправляет HTTP-запрос</li>
+        <li>сервер отдаёт HTTP-ответ</li>
+        <li>браузер отображает веб-страницу</li>
       </ol>
+    </section>
+
+    <section class="slide">
+      <h2>HTTP</h2>
+      <div class="columns two">
+        <div style="
+          display: flex;
+          flex-direction: column;
+        ">
+          <h3 style="
+            margin: 0;
+          ">http запрос</h3>
+          <figure style="
+            height: 100%;
+            flex-shrink: 0;
+          ">
+            <img src="img/http-req.png" width="100%" height="100%" alt="" style="
+            max-height: 250px;
+            height: 100%;
+            margin: 0 auto;
+            display: flex;
+            object-fit: cover;
+          ">
+            <cite class="small" >Источник: <a href="https://skillbox.ru/media/code/chto-takoe-http-i-zachem-on-nuzhen/" target="_blank">skillbox.ru</a></cite>
+          </figure>
+        </div>
+       <div style="
+        display: flex;
+        flex-direction: column;
+       ">
+        <h3 style="
+          margin: 0;
+        ">http ответ</h3>
+        <figure style="
+          height: 100%;
+          flex-shrink: 0;
+        ">
+          <img src="img/http-res.jpg" width="100%" height="100%" alt="" style="
+          max-height: 250px;
+          height: 100%;
+          margin: 0 auto;
+          display: flex;
+          object-fit: contein;
+        ">
+          <cite class="small" >Источник: <a href="https://skillbox.ru/media/code/chto-takoe-http-i-zachem-on-nuzhen/" target="_blank">skillbox.ru</a></cite>
+        </figure>
+       </div>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Какие бывают сайты</h2>
+      <p>По оптимизированности веб-сайта для разных цифровых устройств:</p>
+      <ul>
+        <li>Статические</li>
+        <li>Жидкие (подвижные)</li>
+        <li>Адаптивные</li>
+        <li>Отзывчивые</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Какие бывают сайты</h2>
+      <p>По способу формирования и обновляемости контента:</p>
+      <ul>
+        <li>Статические</li>
+        <li>Динамические</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Какие бывают сайты</h2>
+      <p>По типу контента:</p>
+      <div class="columns two">
+        <ul>
+          <li>блоги</li>
+          <li>корпоративные сайты</li>
+          <li>краудфандинговые платформы</li>
+          <li>сайты электронной коммерции</li>
+        </ul>
+        <ul>
+          <li>образовательные ресурсы</li>
+          <li>новостные сайты</li>
+          <li>социальные медиа</li>
+          <li>сайты ТВ или потокового видео</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Какие бывают сайты</h2>
+      <p>По типу подхода к разработке:</p>
+      <ul>
+        <li><b>MPA</b></li>
+        <li><b>SPA</b> (Gmail, Google Maps, GitHub)</li>
+        <li><b>PWA</b> (Google Docs)</li>
+      </ul>
     </section>
 
     <section class="slide">
@@ -493,6 +749,60 @@
     </section>
 
     <section class="slide">
+      <h2>Прототипирование</h2>
+      <p><b>Прототипирование</b> — это процесс создания модели будущего сайта, которая позволяет протестировать функциональность и дизайн до того, как он будет реализован полностью</p>
+      <div class="columns two">
+        <ul>
+          <li>Проверка гипотез</li>
+          <li>Экономия времени и денег</li>
+          <li>Тестирование функциональности</li>
+        </ul>
+        <ul>
+          <li>Уточнение идей и концепций</li>
+          <li>Проверка бюджета проекта</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Сервисы для создания прототипов сайта</h2>
+      <div class="columns two">
+        <ul>
+          <li>Figma</li>
+          <li>Axure RP</li>
+          <li>Sketch</li>
+          <li>InVision</li>
+          <li>Moqups</li>
+        </ul>
+        <ul>
+          <li>NinjaMock</li>
+          <li>Wireframe.cc</li>
+          <li>Webflow</li>
+          <li>UXPin</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
+      <h2>Методологии управления проектами в ИТ</h2>
+      <div class="columns two">
+        <ul>
+          <li>Waterfall (Водопад или Каскад)</li>
+          <li>Agile</li>
+          <li>Гибридная методология</li>
+          <li>Critical Path Method: метод критического пути</li>
+          <li>Critical Chain Project Management</li>
+        </ul>
+        <ul>
+          <li>Kanban</li>
+          <li>Scrum</li>
+          <li>Scrumban</li>
+          <li>PRINCE2</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="slide">
       <h2>Верстальщик</h2>
       <p>это специалист, который выполняет верстку или преобразование дизайн-макета сайта в веб-форму. Он обеспечивает
         правильное отображение страниц в браузере, упорядочивает код так, чтобы пользователю было наиболее комфортно
@@ -500,14 +810,59 @@
     </section>
 
     <section class="slide">
-      <h2>Чем занимается верстальщик</h2>
+      <h2>Верстальщик</h2>
+      <ol>
+        <li>Верстальщик получает от дизайнера макет</li>
+        <li>Пишет код на HTML и CSS, чтобы страница в браузере отображалась точно так же, как на макете</li>
+        <li>Этот код верстальщик отправляет разработчикам, чтобы его добавили на сайт / добавляет сам</li>
+      </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Техничечкие навыки верстальщика</h2>
       <ul>
-        <li>Изучение дизайн-макетов клиента и подготовка шаблонов</li>
-        <li>Создание алгоритмов для оптимизации определенных процессов</li>
-        <li>Контроль работы элементов интерфейса, исправление ошибок и багов</li>
-        <li>Улучшение визуальной составляющей</li>
+        <li>HTML и CSS</li>
+        <li>Интерфейс среды для работы</li>
+        <li>Адаптивная вёрстка</li>
+        <li>Основы дизайна</li>
+        <li>Работа с препроцессорами</li>
+        <li>CMS и конструкторы</li>
+        <li>JavaScript</li>
       </ul>
     </section>
+
+    <section class="slide">
+      <h2>Soft skills для верстальщика</h2>
+      <ul>
+        <li>Умение общаться с коллегами</li>
+        <li>Управление временем</li>
+        <li>Английский язык</li>
+        <li>Эмпатия</li>
+      </ul>
+    </section>
+
+    <section class="slide">
+      <h2>Плюсы и минусы профессии верстальщика</h2>
+      <div class="columns two">
+        <div>
+          <h3 style="margin: 0; font-size: 38px;"><mark>+</mark></h3>
+          <ul>
+            <li>Низкий порог входа</li>
+            <li>Не нужно глубоко погружаться в программирование</li>
+            <li>Перспективы для карьерного роста</li>
+          </ul>
+        </div>
+       <div>
+        <h3 style="margin: 0; font-size: 38px;"><mark>-</mark></h3>
+        <ul>
+          <li>Относительно невысокие зарплаты на старте</li>
+          <li>Однообразие задач</li>
+          <li>Частые изменения в сфере</li>
+        </ul>
+       </div>
+      </div>
+    </section>
+
 
     <section class="slide">
       <h2>Спецификации</h2>
@@ -530,7 +885,7 @@
     <section class="slide">
       <h2>Веб-доступность</h2>
       <p><mark>Веб-доступность (web accessibility)</mark> — создание сайтов, веб-приложений и связанных с вебом
-        инструментов, и технологий, которыми могут пользоваться люди с инвалидностью.</p>
+        инструментов, и технологий, которыми могут пользоваться люди с инвалидностью</p>
     </section>
 
     <section class="slide">
@@ -654,7 +1009,7 @@
 
     <section class="slide">
       <h2>Законодательные требования</h2>
-      <p>В Европе есть несколько важных документов о веб-доступности</p>
+      <h3 style="margin: 0;">В Европе есть несколько важных документов о веб-доступности:</h3>
       <ol>
         <li>Директива о веб-доступности</li>
         <li>Европейский закон о доступности (пока не утверждён окончательно)</li>
@@ -664,7 +1019,7 @@
     </section>
     <section class="slide">
       <h2>Законодательные требования</h2>
-      <p>В США</p>
+      <h3 style="margin: 0;">В США:</h3>
       <ol>
         <li>Раздел 508</li>
         <li>ADA</li>
@@ -672,7 +1027,7 @@
     </section>
     <section class="slide">
       <h2>Законодательные требования</h2>
-      <p>В России</p>
+      <h3 style="margin: 0;">В России:</h3>
       <ol>
         <li>ФЗ № 419-ФЗ</li>
         <li>ФЗ № 8-ФЗ</li>
@@ -694,6 +1049,7 @@
 
     <section class="slide">
       <h2>Законодательные требования, примирительные к веб-ресурсам </h2>
+      <p>Законы о доступности требуют минимум уровня <b>AA</b> по WCAG</p>
     </section>
     <section class="slide">
       <h2>Законодательные требования, примирительные к веб-ресурсам </h2>
@@ -767,6 +1123,15 @@
     </section>
 
     <section class="slide">
+      <h2>Interop</h2>
+      <p><blockquote>Microsoft, Apple, Google, Mozilla и другие компании запустили проект Interop. Это инициатива по улучшению браузеров и обеспечению единообразного взаимодействия пользователей со всеми платформами. Участники хотят добиться того, чтобы любая технология во всех браузерах работала одинаково</blockquote></p>
+      <ol>
+        <li><a href="https://wpt.fyi/interop-2023" target="_blank">Interop 2023</a></li>
+        <li><a href="https://wpt.fyi/interop-2024?stable" target="_blank">Interop 2024</a></li>
+      </ol>
+    </section>
+
+    <section class="slide">
       <h2>Тенденции развития Интернета и веб-технологий</h2>
       <ol>
         <li>интеграция метавселенной</li>
@@ -775,6 +1140,70 @@
         <li>Motion UI</li>
         <li>голосовой поиск</li>
       </ol>
+    </section>
+
+    <section class="slide">
+      <h2>Российский сектор ИКТ</h2>
+      <blockquote>Объем реализации товаров, работ, услуг сектора ИКТ за I кв. 2024 г. составил порядка 1,7 трлн руб., существенно превысив значение за I кв. 2023 г. (+32,6%)</blockquote>
+      <cite><a href="https://issek.hse.ru/news/945764672.html" target="_blank">Источник: ИСИЭЗ</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Российский сектор ИКТ</h2>
+      <blockquote>Инвестиции в сектор ИКТ в I кв. 2024 г. составили 274,6 млрд руб., увеличившись в 1,8 раза относительно того же периода 2023 г. </blockquote>
+      <cite><a href="https://issek.hse.ru/news/945764672.html" target="_blank">Источник: ИСИЭЗ</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Российский сектор ИКТ</h2>
+      <blockquote>Среднесписочная численность работников сектора ИКТ в I кв. 2024 г. достигла максимального за последние годы значения — 1,5 млн человек (на 117,7 тыс. человек, или 8,5%, больше относительно I кв. 2023 г.)</blockquote>
+      <cite><a href="https://issek.hse.ru/news/945764672.html" target="_blank">Источник: ИСИЭЗ</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Тенденции и перспективы развития интернета в России</h2>
+      <blockquote>вклад сегментов интернет-экономики в экономику России составит 15,8 трлн руб. Это на 29% выше результата 2022 года
+      </blockquote>
+      <cite><a href="https://ict.moscow/research/internet-v-rossii-v-2022-2023-godakh-sostoianie-tendentsii-i-perspektivy-razvitiia/" target="_blank">Источник: ict.moscow</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Тенденции и перспективы развития интернета в России</h2>
+      <blockquote>сегмент «Инфраструктура и связь» вырастет на 40% относительно прошлого года
+      </blockquote>
+      <cite><a href="https://ict.moscow/research/internet-v-rossii-v-2022-2023-godakh-sostoianie-tendentsii-i-perspektivy-razvitiia/" target="_blank">Источник: ict.moscow</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Тенденции и перспективы развития интернета в России</h2>
+      <blockquote>прогнозируемый рост сегмента E-commerce в 2023 году составляет 30%
+      </blockquote>
+      <cite><a href="https://ict.moscow/research/internet-v-rossii-v-2022-2023-godakh-sostoianie-tendentsii-i-perspektivy-razvitiia/" target="_blank">Источник: ict.moscow</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Тенденции и перспективы развития интернета в России</h2>
+      <blockquote>рост на 7% будет наблюдаться в сегменте цифрового контента
+      </blockquote>
+      <cite><a href="https://ict.moscow/research/internet-v-rossii-v-2022-2023-godakh-sostoianie-tendentsii-i-perspektivy-razvitiia/" target="_blank">Источник: ict.moscow</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Тенденции и перспективы развития интернета в России</h2>
+      <blockquote>на 5% вырастут маркетинг и реклама
+      </blockquote>
+      <cite><a href="https://ict.moscow/research/internet-v-rossii-v-2022-2023-godakh-sostoianie-tendentsii-i-perspektivy-razvitiia/" target="_blank">Источник: ict.moscow</a></cite>
+    </section>
+
+    <section class="slide">
+      <h2>Тренды мировой научно-технической политики: итоги 2023 года</h2>
+      <ol>
+        <li>поддержка научных исследований и разработок </li>
+        <li>устойчивое развитие и противодействие изменению климата</li>
+        <li>технологический суверенитет и конкуренция за лидерство в области ИИ и других цифровых технологий</li>
+        <li>укрепление кадрового потенциала</li>
+      </ol>
+      <cite><a href="https://issek.hse.ru/news/902811658.html" target="_blank">Источник: ИСЭЗ НИУ ВШЭ </a></cite>
     </section>
 
     <section class="slide">
